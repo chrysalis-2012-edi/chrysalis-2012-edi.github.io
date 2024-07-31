@@ -1,0 +1,25 @@
+body { 
+    margin: 0;
+    background-color: #c5ded6;
+}
+
+#revealCanvas {
+    display: block;
+    margin: 0 auto;
+    background-image: url('sunrise.jpg'); /* Path to the starting image */
+    background-size: cover;
+    width: 100%;
+    max-width: 1024px;
+    height: 1024px;
+    cursor: crosshair;
+}
+#revealContainer { 
+    text-align: center;
+    font-family: Avenir, sans-serif;
+}
+#revealContainer figcaption {   
+    margin-top: 2rem; 
+    font-size: 3.5rem; /* Adjust this value to make the font size bigger */
+    color: #3a403e; /* Change the color if needed */
+    font-weight: bold; /* Make the font bold if desired */
+}
